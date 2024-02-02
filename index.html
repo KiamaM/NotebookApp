@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTEBOOK APP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="top">
+
+        </div>
+        <div class="bottom">
+
+        </div>
+
+        <div class="notesApp">
+            <div class="notes">
+                <div>
+                    <h1>ADD A NEW NOTE</h1>
+                </div>
+                <form id="newNote">
+                    <div class="inputs">
+                        <label for="title">Note Title</label>
+                        <input type="text" class="noteTitle" id="title" required>
+                        <label for="textArea">Add Note</label>
+                        <textarea name="noteBody" id="textArea" cols="30" rows="10" placeholder="What's your note?" required></textarea>
+                        <input type="submit" value="Add Note" id="submit">
+                    </div>
+                </form>
+
+                <div class="allNotes">
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./dist/main.js"></script>
+</body>
+</html>
